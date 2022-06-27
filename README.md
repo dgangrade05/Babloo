@@ -1,0 +1,2 @@
+# Babloo AI Assistant
+Babloo is a desktop based AI assistant performing your daily basic tasks like opening and closing apps , searching the web , playing music etc on one command of your voice. Following the path of legendary AI systems like JARVIS and FRIDAY , Here is BABLOO. With the help of python modules like Speech Recognition , OS , DateTime etc , it can perform some basis day to day tasks. Although it is not perfect yet , still it performs somewhat good. I will be adding new features as soon as I figure them out. Until then, have a talk with BABLOO.  
