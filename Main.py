@@ -5,19 +5,6 @@ from Modules import *
 # name = input("ENTER YOUR NAME : ")
 name = "DHANRAJ"
 
-# SETTING THE VOICE
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)
-engine.setProperty('rate', 200)
-
-
-# SPEAK FUNCTION
-def speak(text):
-    engine.say(text)
-    engine.runAndWait()
-
-
 # GREET ACCORDING TO THE TIME
 def greetWish():
     hour = datetime.datetime.now().hour

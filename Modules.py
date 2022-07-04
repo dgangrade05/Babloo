@@ -10,3 +10,7 @@ import requests
 import wikipedia
 import webbrowser
 import speech_recognition
+
+
+# IMPORTING OTHER FUNCTIONS
+from Engine import *
