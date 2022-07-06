@@ -114,6 +114,10 @@ def main():
     if 'go to sleep' in query or 'close yourself' in query.lower():
         sys.exit(0)
 
+    # SAYING HELLO
+    if 'hello' in query.lower():
+        helloWish()
+
 
 # calling the main function
 greetWish()
